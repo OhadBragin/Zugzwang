@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Classic wood palette -->
+    <color name="wood_dark">#5C3A21</color>
+    <color name="wood_medium">#8B5E3C</color>
+    <color name="wood_light">#C9A27E</color>
+    <color name="cream">#F3E9D7</color>
+    <color name="cream_light">#FBF6EC</color>
+    <color name="ink">#3B2614</color>
+    <color name="ink_soft">#7A5C43</color>
+    <color name="outline">#D9C4A6</color>
+
+    <!-- Board squares -->
+    <color name="board_light">#F0D9B5</color>
+    <color name="board_dark">#B58863</color>
+
+    <!-- Game results -->
+    <color name="result_win">#4E7D3A</color>
+    <color name="result_loss">#A23B2A</color>
+    <color name="result_draw">#8A7A66</color>
+</resources>

@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Zugzwang</string>
+    <string name="app_tagline">Simple chess, no ads</string>
+    <string name="knight">♞</string>
+    <string name="back">Back</string>
+
+    <!-- Login / register -->
+    <string name="login_title">Log in</string>
+    <string name="login_subtitle">Welcome back! Log in to keep playing</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_button">Log in</string>
+    <string name="no_account">Don\'t have an account? Sign up</string>
+    <string name="register_title">Sign up</string>
+    <string name="register_subtitle">An account keeps your games saved</string>
+    <string name="username">Username</string>
+    <string name="password_confirm">Confirm password</string>
+    <string name="password_helper">At least 6 characters</string>
+    <string name="register_button">Sign up</string>
+    <string name="have_account">I already have an account</string>
+
+    <!-- Main -->
+    <string name="hello_player">Hello, player</string>
+    <string name="stats_wins">Wins</string>
+    <string name="stats_losses">Losses</string>
+    <string name="stats_draws">Draws</string>
+    <string name="new_game">New game</string>
+    <string name="mode_ai">Vs. computer</string>
+    <string name="mode_ai_desc">Three difficulty levels</string>
+    <string name="mode_local">Two players</string>
+    <string name="mode_local_desc">On the same device</string>
+    <string name="mode_online">Online</string>
+    <string name="mode_online_desc">With a friend or a random opponent</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+
+    <!-- Level -->
+    <string name="level_title">Play vs. computer</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="level_easy">Easy</string>
+    <string name="level_medium">Medium</string>
+    <string name="level_hard">Hard</string>
+    <string name="difficulty_desc">The higher the level, the more moves ahead the engine looks, and the longer it thinks.</string>
+    <string name="your_color">Your color</string>
+    <string name="color_white">♔  White</string>
+    <string name="color_black">♚  Black</string>
+    <string name="start_game">Start game</string>
+
+    <!-- Lobby -->
+    <string name="lobby_title">Play online</string>
+    <string name="invite_friend">Invite a friend</string>
+    <string name="invite_friend_desc">Create a room and send your friend the code</string>
+    <string name="create_room">Create room</string>
+    <string name="room_code">Room code</string>
+    <string name="room_code_sample">K7Q2X</string>
+    <string name="waiting_opponent">Waiting for an opponent…</string>
+    <string name="cancel">Cancel</string>
+    <string name="join_friend">Join a friend</string>
+    <string name="join_button">Join</string>
+    <string name="random_opponent">Random opponent</string>
+    <string name="random_opponent_desc">We\'ll find a player who is waiting for a game</string>
+    <string name="find_opponent">Find opponent</string>
+
+    <!-- Game -->
+    <string name="you">You</string>
+    <string name="opponent_ai">Zugzwang</string>
+    <string name="opponent_local">Player 2</string>
+    <string name="opponent_online">Online opponent</string>
+    <string name="thinking">Thinking…</string>
+    <string name="turn_white">White to move</string>
+    <string name="board_placeholder">Chess board</string>
+    <string name="moves">Moves</string>
+    <string name="moves_empty">Moves will appear here</string>
+    <string name="resign">Resign</string>
+
+    <!-- Result dialog -->
+    <string name="result_lost">You lost</string>
+    <string name="result_reason_resign">You resigned. Better luck next time!</string>
+    <string name="back_to_menu">Back to menu</string>
+
+    <!-- History -->
+    <string name="history_title">Game history</string>
+    <string name="history_empty">You haven\'t played any games yet.\nFinished games will show up here.</string>
+    <string name="result_win_short">Win</string>
+    <string name="sample_opponent">vs. Zugzwang · Medium</string>
+    <string name="sample_details">34 moves · Checkmate</string>
+    <string name="sample_date">10.11.2026</string>
+
+    <!-- Settings -->
+    <string name="settings_game">Game</string>
+    <string name="setting_sound">Sounds</string>
+    <string name="setting_legal_moves">Highlight legal moves on the board</string>
+    <string name="settings_board">Board color</string>
+    <string name="board_wood">Classic wood</string>
+    <string name="board_green">Green</string>
+    <string name="board_gray">Gray</string>
+</resources>

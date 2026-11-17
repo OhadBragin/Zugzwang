@@ -1,0 +1,16 @@
+# Gradle / build output
+.gradle/
+build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Machine-specific: SDK path and Android Studio settings (each PC makes its own)
+local.properties
+.idea/
+*.iml
+
+# OS / Office leftovers
+.DS_Store
+Thumbs.db
+~$*

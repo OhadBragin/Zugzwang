@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- One wood theme for light and dark mode, like a real board. -->
+    <style name="Base.Theme.Zugzwang" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/wood_dark</item>
+        <item name="colorOnPrimary">@color/cream_light</item>
+        <item name="colorPrimaryContainer">@color/wood_light</item>
+        <item name="colorOnPrimaryContainer">@color/ink</item>
+        <item name="colorSecondary">@color/wood_medium</item>
+        <item name="colorOnSecondary">@color/cream_light</item>
+        <item name="colorSecondaryContainer">@color/board_light</item>
+        <item name="colorOnSecondaryContainer">@color/ink</item>
+        <item name="android:colorBackground">@color/cream</item>
+        <item name="colorOnBackground">@color/ink</item>
+        <item name="colorSurface">@color/cream</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="colorOnSurfaceVariant">@color/ink_soft</item>
+        <item name="colorSurfaceContainerLowest">@color/cream_light</item>
+        <item name="colorSurfaceContainerLow">@color/cream_light</item>
+        <item name="colorSurfaceContainer">@color/cream_light</item>
+        <item name="colorSurfaceContainerHigh">@color/cream_light</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.Zugzwang" parent="Base.Theme.Zugzwang" />
+
+    <!-- Shared styles -->
+    <style name="Zugzwang.Screen" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/cream</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="Zugzwang.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="navigationIcon">?attr/homeAsUpIndicator</item>
+        <item name="navigationIconTint">@color/ink</item>
+        <item name="navigationContentDescription">@string/back</item>
+        <item name="titleTextColor">@color/ink</item>
+    </style>
+
+    <style name="Zugzwang.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/cream_light</item>
+        <item name="strokeColor">@color/outline</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+
+    <style name="Zugzwang.Button" parent="Widget.Material3.Button">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="cornerRadius">14dp</item>
+    </style>
+
+    <style name="Zugzwang.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="strokeColor">@color/wood_medium</item>
+    </style>
+
+    <style name="Zugzwang.SectionTitle" parent="">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/ink_soft</item>
+    </style>
+
+    <style name="Zugzwang.Field" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/wood_medium</item>
+        <item name="hintTextColor">@color/wood_medium</item>
+    </style>
+</resources>
