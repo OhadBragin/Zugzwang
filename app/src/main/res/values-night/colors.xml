@@ -13,20 +13,21 @@
     <color name="on_primary">#ECEFF4</color>
     <color name="primary_soft">#C9D6E8</color>
     <color name="primary_container">#434C5E</color>
-    <color name="accent">#88C0D0</color>
+    <!-- Frost #81A1C1, not #88C0D0, so titles and buttons don't look like the win color -->
+    <color name="accent">#81A1C1</color>
     <color name="gold">#EBCB8B</color>
 
     <!-- Small circles behind pieces and the player avatar -->
     <color name="chip_soft">#4C566A</color>
-    <color name="avatar">#88C0D0</color>
+    <color name="avatar">#81A1C1</color>
     <color name="on_avatar">#2E3440</color>
 
-    <!-- Game results: Aurora -->
-    <color name="result_win">#EBCB8B</color>
-    <color name="result_loss">#BF616A</color>
-    <color name="result_draw">#B48EAD</color>
+    <!-- Game results, "ice and ember": Frost cyan wins, Aurora orange losses, grey draws -->
+    <color name="result_win">#88C0D0</color>
+    <color name="result_loss">#D08770</color>
+    <color name="result_draw">#A3ABBA</color>
     <color name="on_result_win">#2E3440</color>
-    <color name="on_result_loss">#FFFFFF</color>
+    <color name="on_result_loss">#2E3440</color>
     <color name="on_result_draw">#2E3440</color>
 
     <!-- Board -->

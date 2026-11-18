@@ -29,10 +29,10 @@
     <color name="avatar">#5E81AC</color>
     <color name="on_avatar">#FFFFFF</color>
 
-    <!-- Game results: aurora yellow, red and purple -->
-    <color name="result_win">#A67C1E</color>
-    <color name="result_loss">#A9505A</color>
-    <color name="result_draw">#8C6A86</color>
+    <!-- Game results, "ice and ember": icy cyan wins, aurora orange losses, grey draws -->
+    <color name="result_win">#2B7A90</color>
+    <color name="result_loss">#B5643F</color>
+    <color name="result_draw">#6B7A90</color>
     <color name="on_result_win">#FFFFFF</color>
     <color name="on_result_loss">#FFFFFF</color>
     <color name="on_result_draw">#FFFFFF</color>
