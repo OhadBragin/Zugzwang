@@ -20,10 +20,10 @@
             <TextView
                 android:layout_width="44dp"
                 android:layout_height="44dp"
-                android:background="@drawable/bg_circle_wood"
+                android:background="@drawable/bg_circle_avatar"
                 android:gravity="center"
                 android:text="♚"
-                android:textColor="@color/cream_light"
+                android:textColor="@color/on_avatar"
                 android:textSize="24sp" />
 
             <TextView
@@ -34,7 +34,7 @@
                 android:layout_weight="1"
                 android:text="@string/opponent_ai"
                 android:textAlignment="viewStart"
-                android:textColor="@color/ink"
+                android:textColor="@color/text"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -51,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:indeterminate="true"
-                    app:indicatorColor="@color/wood_medium"
+                    app:indicatorColor="@color/accent"
                     app:indicatorSize="18dp" />
 
                 <TextView
@@ -59,7 +59,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="6dp"
                     android:text="@string/thinking"
-                    android:textColor="@color/ink_soft" />
+                    android:textColor="@color/text_soft" />
             </LinearLayout>
         </LinearLayout>
 
@@ -101,10 +101,10 @@
             <TextView
                 android:layout_width="44dp"
                 android:layout_height="44dp"
-                android:background="@drawable/bg_circle_light"
+                android:background="@drawable/bg_circle_soft"
                 android:gravity="center"
                 android:text="♔"
-                android:textColor="@color/wood_dark"
+                android:textColor="@color/text"
                 android:textSize="24sp" />
 
             <TextView
@@ -113,7 +113,7 @@
                 android:layout_marginStart="12dp"
                 android:layout_weight="1"
                 android:text="@string/you"
-                android:textColor="@color/ink"
+                android:textColor="@color/text"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -122,13 +122,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_chip"
-                android:backgroundTint="@color/wood_dark"
+                android:backgroundTint="@color/primary"
                 android:paddingStart="12dp"
                 android:paddingTop="4dp"
                 android:paddingEnd="12dp"
                 android:paddingBottom="4dp"
                 android:text="@string/turn_white"
-                android:textColor="@color/cream_light" />
+                android:textColor="@color/on_primary" />
         </LinearLayout>
 
         <!-- Moves -->
@@ -157,7 +157,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="@string/moves_empty"
-                    android:textColor="@color/ink_soft" />
+                    android:textColor="@color/text_soft" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 

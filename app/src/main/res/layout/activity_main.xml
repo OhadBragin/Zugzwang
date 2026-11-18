@@ -28,7 +28,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:text="@string/app_name"
-                    android:textColor="@color/wood_medium"
+                    android:textColor="@color/accent"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -37,7 +37,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/hello_player"
-                    android:textColor="@color/ink"
+                    android:textColor="@color/text"
                     android:textSize="26sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -45,10 +45,10 @@
             <TextView
                 android:layout_width="56dp"
                 android:layout_height="56dp"
-                android:background="@drawable/bg_circle_wood"
+                android:background="@drawable/bg_circle_avatar"
                 android:gravity="center"
                 android:text="@string/knight"
-                android:textColor="@color/cream_light"
+                android:textColor="@color/on_avatar"
                 android:textSize="30sp" />
         </LinearLayout>
 
@@ -86,7 +86,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/stats_wins"
-                        android:textColor="@color/ink_soft" />
+                        android:textColor="@color/text_soft" />
                 </LinearLayout>
 
                 <View
@@ -114,7 +114,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/stats_losses"
-                        android:textColor="@color/ink_soft" />
+                        android:textColor="@color/text_soft" />
                 </LinearLayout>
 
                 <View
@@ -142,7 +142,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/stats_draws"
-                        android:textColor="@color/ink_soft" />
+                        android:textColor="@color/text_soft" />
                 </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -163,7 +163,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             android:focusable="true"
-            app:cardBackgroundColor="@color/wood_dark"
+            app:cardBackgroundColor="@color/primary"
             app:strokeWidth="0dp">
 
             <LinearLayout
@@ -176,10 +176,10 @@
                 <TextView
                     android:layout_width="52dp"
                     android:layout_height="52dp"
-                    android:background="@drawable/bg_circle_light"
+                    android:background="@drawable/bg_circle_on_primary"
                     android:gravity="center"
                     android:text="♜"
-                    android:textColor="@color/wood_dark"
+                    android:textColor="@color/primary"
                     android:textSize="28sp" />
 
                 <LinearLayout
@@ -193,7 +193,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/mode_ai"
-                        android:textColor="@color/cream_light"
+                        android:textColor="@color/on_primary"
                         android:textSize="19sp"
                         android:textStyle="bold" />
 
@@ -201,7 +201,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/mode_ai_desc"
-                        android:textColor="@color/wood_light" />
+                        android:textColor="@color/primary_soft" />
                 </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -225,10 +225,10 @@
                 <TextView
                     android:layout_width="52dp"
                     android:layout_height="52dp"
-                    android:background="@drawable/bg_circle_light"
+                    android:background="@drawable/bg_circle_soft"
                     android:gravity="center"
                     android:text="♟"
-                    android:textColor="@color/wood_dark"
+                    android:textColor="@color/text"
                     android:textSize="28sp" />
 
                 <LinearLayout
@@ -242,7 +242,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/mode_local"
-                        android:textColor="@color/ink"
+                        android:textColor="@color/text"
                         android:textSize="19sp"
                         android:textStyle="bold" />
 
@@ -250,7 +250,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/mode_local_desc"
-                        android:textColor="@color/ink_soft" />
+                        android:textColor="@color/text_soft" />
                 </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -274,10 +274,10 @@
                 <TextView
                     android:layout_width="52dp"
                     android:layout_height="52dp"
-                    android:background="@drawable/bg_circle_light"
+                    android:background="@drawable/bg_circle_soft"
                     android:gravity="center"
                     android:text="♛"
-                    android:textColor="@color/wood_dark"
+                    android:textColor="@color/text"
                     android:textSize="28sp" />
 
                 <LinearLayout
@@ -291,7 +291,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/mode_online"
-                        android:textColor="@color/ink"
+                        android:textColor="@color/text"
                         android:textSize="19sp"
                         android:textStyle="bold" />
 
@@ -299,7 +299,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/mode_online_desc"
-                        android:textColor="@color/ink_soft" />
+                        android:textColor="@color/text_soft" />
                 </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -323,7 +323,7 @@
                 android:layout_marginEnd="6dp"
                 android:layout_weight="1"
                 android:text="@string/history"
-                android:textColor="@color/wood_dark" />
+                android:textColor="@color/accent" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSettings"
@@ -332,7 +332,7 @@
                 android:layout_marginStart="6dp"
                 android:layout_weight="1"
                 android:text="@string/settings"
-                android:textColor="@color/wood_dark" />
+                android:textColor="@color/accent" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

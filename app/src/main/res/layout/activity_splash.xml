@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/Zugzwang.Screen"
-    android:background="@color/wood_dark"
+    android:background="@color/primary"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/knight"
-        android:textColor="@color/board_light"
+        android:textColor="@color/gold"
         android:textSize="120sp" />
 
     <TextView
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="serif"
         android:text="@string/app_name"
-        android:textColor="@color/cream_light"
+        android:textColor="@color/on_primary"
         android:textSize="44sp"
         android:textStyle="bold" />
 
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/app_tagline"
-        android:textColor="@color/wood_light"
+        android:textColor="@color/primary_soft"
         android:textSize="16sp" />
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
@@ -35,6 +35,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:indeterminate="true"
-        app:indicatorColor="@color/wood_light"
+        app:indicatorColor="@color/on_primary"
         app:indicatorSize="32dp" />
 </LinearLayout>

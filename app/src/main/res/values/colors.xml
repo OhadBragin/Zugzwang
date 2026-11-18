@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Light theme: "Nord Snow Storm".
+    Built from the Nord palette (nordtheme.com). The dark theme lives in values-night/colors.xml
+    and uses the same color names, so layouts never need to know which theme is active.
+    Aurora colors are darkened here so they stay readable on light backgrounds.
+-->
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Classic wood palette -->
-    <color name="wood_dark">#5C3A21</color>
-    <color name="wood_medium">#8B5E3C</color>
-    <color name="wood_light">#C9A27E</color>
-    <color name="cream">#F3E9D7</color>
-    <color name="cream_light">#FBF6EC</color>
-    <color name="ink">#3B2614</color>
-    <color name="ink_soft">#7A5C43</color>
-    <color name="outline">#D9C4A6</color>
+    <!-- Surfaces and text -->
+    <color name="bg">#ECEFF4</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="outline">#D8DEE9</color>
+    <color name="text">#2E3440</color>
+    <color name="text_soft">#4C566A</color>
 
-    <!-- Board squares -->
-    <color name="board_light">#F0D9B5</color>
-    <color name="board_dark">#B58863</color>
+    <!-- Brand: Nord frost blue -->
+    <color name="primary">#5E81AC</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_soft">#D6E2F0</color>
+    <color name="primary_container">#D6E2F0</color>
+    <color name="accent">#4C6A92</color>
+    <color name="gold">#EBCB8B</color>
 
-    <!-- Game results -->
-    <color name="result_win">#4E7D3A</color>
-    <color name="result_loss">#A23B2A</color>
-    <color name="result_draw">#8A7A66</color>
+    <!-- Small circles behind pieces and the player avatar -->
+    <color name="chip_soft">#D8DEE9</color>
+    <color name="avatar">#5E81AC</color>
+    <color name="on_avatar">#FFFFFF</color>
+
+    <!-- Game results: aurora yellow, red and purple -->
+    <color name="result_win">#A67C1E</color>
+    <color name="result_loss">#A9505A</color>
+    <color name="result_draw">#8C6A86</color>
+    <color name="on_result_win">#FFFFFF</color>
+    <color name="on_result_loss">#FFFFFF</color>
+    <color name="on_result_draw">#FFFFFF</color>
+
+    <!-- Board -->
+    <color name="board_light">#E5E9F0</color>
+    <color name="board_dark">#81A1C1</color>
+    <color name="board_frame">#4C566A</color>
 </resources>
