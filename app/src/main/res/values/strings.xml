@@ -19,8 +19,19 @@
     <string name="register_button">Sign up</string>
     <string name="have_account">I already have an account</string>
 
+    <!-- Login / register errors -->
+    <string name="error_required">Required</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_passwords_differ">The passwords don\'t match</string>
+    <string name="error_password_short">At least 6 characters</string>
+    <string name="error_email_taken">There is already an account with this email</string>
+    <string name="error_wrong_login">Wrong email or password</string>
+    <string name="error_network">No internet connection. Check it and try again</string>
+    <string name="error_generic">Something went wrong. Please try again</string>
+
     <!-- Main -->
     <string name="hello_player">Hello, player</string>
+    <string name="hello_name">Hello, %1$s</string>
     <string name="stats_wins">Wins</string>
     <string name="stats_losses">Losses</string>
     <string name="stats_draws">Draws</string>
@@ -82,12 +93,38 @@
     <string name="history_title">Game history</string>
     <string name="history_empty">You haven\'t played any games yet.\nFinished games will show up here.</string>
     <string name="result_win_short">Win</string>
+    <string name="result_loss_short">Loss</string>
+    <string name="result_draw_short">Draw</string>
+    <string name="history_vs_ai">vs. Zugzwang · %1$s</string>
+    <string name="history_vs_local">vs. Player 2</string>
+    <string name="history_details">%1$s · %2$s</string>
+    <plurals name="move_count">
+        <item quantity="one">%d move</item>
+        <item quantity="other">%d moves</item>
+    </plurals>
+    <string name="reason_checkmate">Checkmate</string>
+    <string name="reason_resign">Resigned</string>
+    <string name="reason_stalemate">Stalemate</string>
+    <string name="history_clear">Clear history</string>
+    <string name="history_clear_title">Clear your whole history?</string>
+    <string name="history_clear_message">All games will be deleted and your wins, losses and draws go back to 0. This can\'t be undone.</string>
+    <string name="history_delete_title">Delete this game?</string>
+    <string name="history_delete_message">It will also be taken off your wins, losses and draws.</string>
+    <string name="history_hint">Long-press a game to delete it</string>
+    <string name="delete">Delete</string>
+    <string name="clear">Clear</string>
+    <string name="game_save_failed">Couldn\'t save this game to your history</string>
     <string name="sample_opponent">vs. Zugzwang · Medium</string>
     <string name="sample_details">34 moves · Checkmate</string>
     <string name="sample_date">10.11.2026</string>
 
     <!-- Settings -->
     <string name="settings_appearance">Appearance</string>
+    <string name="settings_account">Account</string>
+    <string name="change_username">Change username</string>
+    <string name="username_updated">Username updated</string>
+    <string name="save">Save</string>
+    <string name="log_out">Log out</string>
     <string name="theme_system">System</string>
     <string name="theme_light">Light</string>
     <string name="theme_dark">Dark</string>

@@ -1,0 +1,12 @@
+rules_version = '2';
+
+// Firestore security rules for Zugzwang.
+// These are the rules published in Firebase console -> Firestore Database -> Rules.
+// Each signed-in player can read and change only their own profile and game history.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid}/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+  }
+}

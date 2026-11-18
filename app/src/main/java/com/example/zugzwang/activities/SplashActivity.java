@@ -8,6 +8,7 @@ import android.os.Looper;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.zugzwang.R;
+import com.example.zugzwang.data.AuthService;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -20,7 +21,9 @@ public class SplashActivity extends AppCompatActivity {
 
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
             if (isFinishing()) return; // the user left during the splash
-            startActivity(new Intent(this, LoginActivity.class));
+            // Firebase remembers the login, so a returning player skips the login screen.
+            Class<?> next = AuthService.isLoggedIn() ? MainActivity.class : LoginActivity.class;
+            startActivity(new Intent(this, next));
             finish();
         }, SPLASH_DELAY_MS);
     }
