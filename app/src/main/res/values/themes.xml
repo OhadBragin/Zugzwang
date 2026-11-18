@@ -34,6 +34,14 @@
 
     <style name="Theme.Zugzwang" parent="Base.Theme.Zugzwang" />
 
+    <!-- Splash: the screen is filled with the primary color, so the system bar icons are always light -->
+    <style name="Theme.Zugzwang.Splash" parent="Theme.Zugzwang">
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+    </style>
+
     <!-- Shared styles -->
     <style name="Zugzwang.Screen" parent="">
         <item name="android:layout_width">match_parent</item>

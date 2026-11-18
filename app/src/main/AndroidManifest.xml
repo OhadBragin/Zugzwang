@@ -14,7 +14,8 @@
         android:theme="@style/Theme.Zugzwang">
         <activity
             android:name=".activities.SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Zugzwang.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
